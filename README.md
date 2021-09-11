@@ -1,5 +1,4 @@
-# deadlock_detecting_mutex
-Test task for JetBrains fall internship
+# Deadlock detecting mutex
 
 Рассчитывается, что `doctest.h` лежит в директории `tests`, поэтому для запуска тестов:
 ```
