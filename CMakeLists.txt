@@ -10,6 +10,4 @@ add_executable(deadlock_mutex
         src/deadlock_detecting_mutex.cpp
         include/thread_mutex_graph.h
         src/thread_mutex_graph.cpp
-        tests/doctest.h
-        tests/main_tests.cpp
         )
