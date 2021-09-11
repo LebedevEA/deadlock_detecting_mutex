@@ -9,7 +9,7 @@ bool deadlock_detecting_mutex::operator==(const deadlock_detecting_mutex& that) 
 
 void deadlock_detecting_mutex::lock() {
     wait();
-    if (!can_acquire()) throw std::logic_error("Deadlock detected!");
+    if (!can_acquire()) std::terminate();
     base_.lock();
     acquire();
 }
