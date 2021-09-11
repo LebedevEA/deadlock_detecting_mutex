@@ -4,7 +4,7 @@ project(deadlock_mutex)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
-include_directories("include", "tests")
+include_directories("include" "tests")
 add_executable(deadlock_mutex
         include/deadlock_detecting_mutex.h
         src/deadlock_detecting_mutex.cpp
